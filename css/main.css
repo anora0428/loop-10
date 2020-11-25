@@ -1,0 +1,302 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.header-block {
+  background-image: url('../img/watches.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position-x: 1350px;
+  background-position-y: 120px;
+  /* margin: 0 auto; */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #000000;
+  outline: none;
+
+}
+
+input::active {
+  border: none;
+
+}
+
+.links {
+  position: relative;
+}
+
+.links::before {
+  content: '';
+  height: 4px;
+  background-color: #000000;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  transition: all ease 0.5s;
+}
+
+.links:hover::before {
+  width: 100%;
+}
+
+.top-right a {
+  padding: 20px;
+  color: #A9A9A9;
+}
+
+.top-right a:hover {
+
+  color: #333333;
+}
+
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  /* padding: 100px; */
+
+
+}
+
+.text::before {
+  height: 150px;
+  width: 3px;
+  content: '';
+  position: absolute;
+  background-color: grey;
+  left: 0;
+}
+
+.text.second::before {
+  height: 120px;
+  width: 3px;
+  content: '';
+  position: absolute;
+  background-color: grey;
+  left: 0;
+}
+
+.note {
+  padding: 16px 25px;
+  background: #EA625C;
+  color: #ffffff;
+}
+
+.note:hover {
+  padding: 16px 25px;
+  background: #EA625C;
+  opacity: 0.8;
+}
+
+.title {
+  padding-top: 190px;
+  margin-bottom: 70px;
+  font-size: 45px;
+}
+
+.text {
+  color: #A9A8A8;
+  line-height: 30px;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+
+hr {
+  margin-top: 137px;
+}
+
+.section-block .container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.section-block {
+  margin-bottom: 60px;
+}
+
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+
+
+.table {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  margin-top: 60px;
+
+}
+
+
+.more {
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 20%;
+
+}
+
+.more-links {
+  display: flex;
+
+}
+
+.more-links a {
+  margin-right: 10px;
+  background-color: #C8C9C9;
+}
+
+.table-text {
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #504842;
+}
+
+.table-title {
+  margin-bottom: 50px;
+  color: #394148;
+  position: relative;
+
+}
+
+.three {
+  position: relative;
+}
+
+.three .learn {
+  color: #EF8782;
+}
+
+.learn::before {
+  background-color: #EF8782;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  content: '';
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+  top: 220px;
+}
+
+.learn:hover::before {
+  background-color: #EF8782;
+  width: 60px;
+  height: 2px;
+  transition: all ease 0.5s;
+}
+
+.learn-more a {
+  margin-left: 50px;
+}
+
+.learn-more a:hover {
+  margin-left: 80px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.bottom-left {
+  position: relative;
+}
+
+.section-bottom {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+
+}
+
+.bottom-right img {
+  margin-top: 100px;
+}
+
+.down-section {
+  position: relative;
+  background-image: url('../img/runners.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 70px 0 150px 0;
+
+
+}
+
+.down-inner {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.down {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.down .text::before {
+  height: 150px;
+  width: 3px;
+  content: '';
+  position: absolute;
+  background-color: grey;
+  left: 750px;
+}
+
+.title.bottom {
+  color: #ffffff;
+}
